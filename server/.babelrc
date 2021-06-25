@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "babel-plugin-import-graphql",
+    "@babel/plugin-transform-runtime",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "decoratorsBeforeExport": true
+      }
+    ]
+  ],
+  "presets": [
+    "@babel/preset-env"
+  ]
+}

@@ -1,0 +1,34 @@
+@import "../../../base/styles.module.scss";
+
+.main {
+  height: inherit;
+}
+
+.paper {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.avatar {
+  margin: 1px;
+  background-color: $AVATAR_COLOR !important;
+}
+
+.form {
+  width: 100%;
+  margin-top: 1px;
+}
+
+.submit {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px 0 !important;
+}
+
+.link {
+  font-size: 15px;
+}

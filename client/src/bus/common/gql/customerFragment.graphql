@@ -1,0 +1,8 @@
+fragment Profile on Customer {
+	id
+	firstName
+	lastName
+	email
+	age
+	city
+}

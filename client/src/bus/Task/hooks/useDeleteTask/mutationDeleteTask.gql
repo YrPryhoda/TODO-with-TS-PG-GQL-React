@@ -1,0 +1,6 @@
+
+mutation MyMutation($id: ID!) {
+  removeTask(id: $id) {
+    title
+  }
+}

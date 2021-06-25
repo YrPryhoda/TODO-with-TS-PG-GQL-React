@@ -1,0 +1,7 @@
+#import '../../../common/gql/customerFragment.graphql'
+
+mutation login($email: String!, $password:String!) {
+  login(email: $email, password: $password) {
+    ...Profile
+  }
+}

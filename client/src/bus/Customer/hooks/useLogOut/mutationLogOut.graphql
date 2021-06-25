@@ -1,0 +1,7 @@
+#import '../../../common/gql/customerFragment.graphql'
+
+mutation LogOut {
+	logout {
+		...Profile
+	}
+}

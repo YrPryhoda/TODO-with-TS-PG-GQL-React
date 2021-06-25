@@ -1,0 +1,7 @@
+#import '../../../common/gql/taskFragment.graphql'
+
+mutation AddTask($task: TaskInput!) {
+	addTask(task: $task) {
+		...Task
+	}
+}

@@ -1,0 +1,22 @@
+.paper {
+  margin-top: 3px !important;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  background-color: rgb(252, 252, 252);
+
+  &::after {
+    content: '';
+    display: block;
+    
+  }
+}
+
+.rowField {
+  padding-right: 10px !important;
+}
+
+.avatar {
+  width: 100px !important;
+  height: 100px !important;
+}

@@ -1,0 +1,7 @@
+#import '../../../common/gql/taskFragment.graphql'
+
+query LoadTasks {
+	tasks {
+		...Task
+	}
+}

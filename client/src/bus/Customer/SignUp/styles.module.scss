@@ -1,0 +1,61 @@
+@import "../../../base/styles.module.scss";
+
+.root {
+  height: 100vh;
+}
+
+.main {
+  height: inherit;
+}
+
+.paper {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 40px;
+}
+
+.avatar {
+  margin: 5px;
+  background-color: $AVATAR_COLOR !important;
+}
+
+.form {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.submit {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 20px 0 !important;
+}
+
+.link {
+  font-size: 15px;
+}
+
+.noMargin {
+  margin: 0 !important;
+}
+
+.image {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../common/assets/main.jpg");
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: 962px) {
+    background-image: url("../../../common/assets/banner.jpg");
+    min-height: 20vh;
+  }
+}
+
+.loader {
+  position: absolute ;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

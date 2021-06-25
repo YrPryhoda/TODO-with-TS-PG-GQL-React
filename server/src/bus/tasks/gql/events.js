@@ -1,0 +1,6 @@
+export const events = Object.freeze({
+  ADDED_TASK: "ADDED_TASK",
+  UPDATED_TASK: "UPDATED_TASK",
+  DELETED_TASK: "DELETED_TASK",
+  DELETED_ALL_TASKS: "DELETED_ALL_TASKS"
+})

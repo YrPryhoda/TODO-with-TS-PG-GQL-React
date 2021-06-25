@@ -1,0 +1,20 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "postgres",
+  "database": "graphql_todo",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/entity/**/*.js"
+  ],
+  "migrations": [
+    "src/migration/**/*.js"
+  ],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration"
+  }
+}

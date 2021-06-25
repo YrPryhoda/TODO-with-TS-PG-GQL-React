@@ -1,0 +1,7 @@
+#import '../../../common/gql/taskFragment.graphql'
+
+subscription AddedTask {
+  addedTask {
+    ...Task
+  }
+}
